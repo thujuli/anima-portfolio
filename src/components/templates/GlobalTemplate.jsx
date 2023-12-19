@@ -1,3 +1,4 @@
+import Footer from "../organisms/Footer";
 import Header from "../organisms/Header";
 
 export default function GlobalTemplate({ children }) {
@@ -5,6 +6,7 @@ export default function GlobalTemplate({ children }) {
     <>
       <Header />
       {children}
+      <Footer />
     </>
   );
 }
