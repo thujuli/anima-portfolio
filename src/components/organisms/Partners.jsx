@@ -5,15 +5,36 @@ import apple from "../../assets/img/logo-apple.svg";
 import awww from "../../assets/img/logo-awwwards.svg";
 
 export default function Partners() {
+  const partners = [
+    {
+      imgSrc: google,
+      imgAlt: "Google",
+    },
+    {
+      imgSrc: be,
+      imgAlt: "Behance",
+    },
+    {
+      imgSrc: dribbble,
+      imgAlt: "Dribbble",
+    },
+    {
+      imgSrc: apple,
+      imgAlt: "Apple",
+    },
+    {
+      imgSrc: awww,
+      imgAlt: "Awwwards",
+    },
+  ];
+
   return (
-    <div className="container mx-auto ">
+    <section className="container mx-auto ">
       <div className="flex flex-row mx-[66px] py-[60px] gap-y-[60px] gap-x-[60px] flex-wrap justify-center border-y-2 border-black/20  lg:justify-between lg:gap-x-0">
-        <img src={google} alt="Google" />
-        <img src={be} alt="Behance" />
-        <img src={dribbble} alt="Dribbble" />
-        <img src={apple} alt="Apple" />
-        <img src={awww} alt="Awwwards" />
+        {partners.map((partner) => (
+          <img src={partner.imgSrc} alt={partner.imgAlt} key={partner.imgAlt} />
+        ))}
       </div>
-    </div>
+    </section>
   );
 }
