@@ -7,14 +7,12 @@ import Clients from "../components/organisms/Clients";
 
 export default function Home() {
   return (
-    <>
-      <GlobalTemplate>
-        <Hero />
-        <Partners />
-        <Skills />
-        <Works />
-        <Clients />
-      </GlobalTemplate>
-    </>
+    <GlobalTemplate>
+      <Hero />
+      <Partners />
+      <Skills />
+      <Works />
+      <Clients />
+    </GlobalTemplate>
   );
 }
