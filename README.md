@@ -1,8 +1,5 @@
-# React + Vite
+# Anima - Portfolio Template Comunitty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project involves implementing slicing from a design found in the Figma Community. We use Figma to obtain the design and then perform the slicing process to integrate it into the development project.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Anima - Portfolio Template Comunitty](https://www.figma.com/community/file/1184894959333450190)
